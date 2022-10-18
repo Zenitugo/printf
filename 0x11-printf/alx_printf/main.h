@@ -19,4 +19,11 @@ int print_X(va_list X);
 int print_p(va_list p);
 int _printf(const char *format, ...);
 
+
+typedef struct print
+{
+	char*t;
+	int(*f)(va_list);
+}print_t
+
 #endif
