@@ -6,7 +6,7 @@
  * Return: 1 if successful
  */
 
-static int9*check_for_specifiers(const char * format))(va_list);
+static int(*check_for_specifiers(const char * format))(va_list);
 {
 	unsigned int i;
 	print_t p[] = {
